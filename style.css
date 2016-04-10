@@ -17,7 +17,8 @@ a:visited {
 }
 
 .heading {
-	border-style:3px solid black;
+	border-style:solid;
+	border-color:black;
 	border-radius:50px;
 	padding:4px;
 	font-family:helvetica;
@@ -28,7 +29,8 @@ a:visited {
 }
 
 .altheading {
-	border-style:3px solid black;
+	border-style:solid;
+	border-color:black;
 	border-radius:50px;
 	padding:4px;
 	font-family:helvetica;
