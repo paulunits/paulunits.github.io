@@ -1,4 +1,93 @@
-body {
+a:link {
+	color:blue;
+	text-decoration:none;
 
-	background-color:blue;
+}
+
+a:visited {
+	color:red;
+	text-decoration:none;
+
+}
+
+
+#photo {
+
+	background-image: url("thisheat-2.jpg");
+}
+
+.heading {
+	border-style:3px solid black;
+	border-radius:50px;
+	padding:4px;
+	font-family:helvetica;
+	text-align:center;
+	color:white;
+	background-color:black;
+
+}
+
+.altheading {
+	border-style:3px solid black;
+	border-radius:50px;
+	padding:4px;
+	font-family:helvetica;
+	text-align:center;
+	color:white;
+	background-color:red;
+}
+
+#pic {
+	position:absolute;
+}
+#bio {
+	position:absolute;
+	margin-left:550px;
+	
+}
+
+#links {
+
+	position:absolute;
+	margin-top:400px;
+	
+}
+
+.pages {
+	font-size:150%;
+	font-family:helvetica;
+
+}
+
+.testlink {
+	margin-left:300px;
+	margin-right:300px;
+	text-align:center;
+}
+
+.linkpage {
+	background-color:gray;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-right:600px;
+	margin-top:300px;
+	font-size:150%;
+	font-family:helvetica;
+}
+
+#discs {
+	background-color:gray;
+
+}
+
+
+@media (max-width: 900px) {
+  .linkpage {
+    position:fixed;
+    font-size:75%;
+  }
+  #main {
+  	
+  	margin-top:600px;
+  }
 }
